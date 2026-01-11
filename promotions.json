@@ -2,6 +2,32 @@
   "_comment": "Multi-Promotion System - Each promotion is identified by a unique key (promotion code). Posts reference promotions via the 'promotionId' field in blog-posts.json.",
   "_usage": "To add a new promotion: 1) Add it to this file with a unique key, 2) Set enabled: true, 3) Reference it in blog posts using the key as promotionId",
   "promotions": {
+    "WINTER": {
+      "enabled": true,
+      "code": "WINTER",
+      "discount": "25% OFF",
+      "title": "Winter Special:",
+      "returnGuestTitle": "For All Guests:",
+      "validUntil": "2026-02-28",
+      "validUntilFormatted": "2/28/26",
+      "blackoutDates": [],
+      "showBannerOnListing": true,
+      "bookingUrl": "https://reserve.hobokenvacationrentals.com/",
+      "restrictions": "Cannot combine with other offers. Subject to availability. Noncancellable. Taxes and fees apply."
+    },
+    "WINTER_NOBANNER": {
+      "enabled": true,
+      "code": "WINTER",
+      "discount": "25% OFF",
+      "title": "Winter Special:",
+      "returnGuestTitle": "For All Guests:",
+      "validUntil": "2026-02-28",
+      "validUntilFormatted": "2/28/26",
+      "blackoutDates": [],
+      "showBannerOnListing": false,
+      "bookingUrl": "https://reserve.hobokenvacationrentals.com/",
+      "restrictions": "Cannot combine with other offers. Subject to availability. Noncancellable. Taxes and fees apply."
+    },
     "WELCOMEBACK_NOBANNER": {
       "enabled": true,
       "code": "WELCOMEBACK",
